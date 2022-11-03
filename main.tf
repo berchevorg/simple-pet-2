@@ -1,6 +1,12 @@
-variable "length" {}
+# variable "length" {}
+
+# resource "random_pet" "name" {
+#  length    = var.length
+#  separator = "-"
+# }
+
 
 resource "random_pet" "name" {
- length    = var.length
+ length    = "5"
  separator = "-"
 }
